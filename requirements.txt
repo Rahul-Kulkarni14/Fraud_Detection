@@ -1,0 +1,36 @@
+# ==============================
+# DeepFraudNet Requirements
+# ==============================
+
+# TensorFlow + Keras for CNN and LSTM
+tensorflow>=2.10
+keras>=2.10
+
+# PyTorch core (for GNN support)
+torch>=2.0
+
+# ⚠️ Special installation note for PyTorch Geometric:
+# Do NOT install the following directly via pip in requirements.txt.
+# Instead, follow the proper install instructions based on your CUDA version.
+# See: https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+
+# Recommended installation (run manually):
+# pip install torch
+# pip install torch-geometric
+
+# Below are the optional PyG dependencies (may require wheels based on OS/CUDA):
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+torch-geometric>=2.3.1
+
+# Data handling
+pandas
+numpy
+scikit-learn
+
+# Visualization and utilities
+matplotlib
+seaborn
+tqdm
