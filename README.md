@@ -60,7 +60,8 @@ python code/generate_dataset.py
 python code/view_dataset.py
 
 # 3. Run the full detection pipeline
-python code/main.py```
+python code/main.py
+```
 
 ---
 
